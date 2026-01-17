@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Candidate Playground</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Candidate Profile Playground</h1>
+
+  <!-- PROFILE SECTION -->
+  <section class="card">
+    <h2>My Profile</h2>
+    <button onclick="loadProfile()">Load Profile</button>
+    <pre id="profileBox">Click "Load Profile"</pre>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <section class="card">
+    <h2>Projects</h2>
+
+    <div class="row">
+      <input id="skillInput" placeholder="Search projects by skill (ex: Java)" />
+      <button onclick="loadProjects()">Search</button>
+    </div>
+
+    <pre id="projectsBox">Projects will appear here</pre>
+  </section>
+
+  <!-- SEARCH SECTION -->
+  <section class="card">
+    <h2>Search Everything</h2>
+
+    <div class="row">
+      <input id="searchInput" placeholder="Search keyword (ex: robot, sql)" />
+      <button onclick="searchAll()">Search</button>
+    </div>
+
+    <pre id="searchBox">Search results will appear here</pre>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
