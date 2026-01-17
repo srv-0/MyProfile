@@ -21,13 +21,13 @@ function runSQLFile(filename) {
 
 async function initDB() {
   if (dbExists) {
-    console.log("✅ Database already exists, skipping init");
+    console.log("Database already exists, skipping init");
     return;
   }
 
   await runSQLFile("schema.sql");
   await runSQLFile("seed.sql");
-  console.log("✅ Database initialized with schema + seed data");
+  console.log("Database initialized with schema + seed data");
 }
 
 module.exports = { db, initDB };

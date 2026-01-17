@@ -1,4 +1,3 @@
-// ✅ change this later when backend is deployed
 const API_BASE = "http://localhost:3000";
 
 async function loadProfile() {

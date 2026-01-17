@@ -14,7 +14,7 @@ VALUES (
   'https://YOUR_PORTFOLIO'
 );
 
--- ✅ SKILLS
+
 INSERT INTO skills (profile_id, skill) VALUES (1, 'Java');
 INSERT INTO skills (profile_id, skill) VALUES (1, 'DSA');
 INSERT INTO skills (profile_id, skill) VALUES (1, 'SQL');
@@ -24,7 +24,7 @@ INSERT INTO skills (profile_id, skill) VALUES (1, 'SQLite');
 INSERT INTO skills (profile_id, skill) VALUES (1, 'Git');
 INSERT INTO skills (profile_id, skill) VALUES (1, 'REST API');
 
--- ✅ PROJECTS
+
 INSERT INTO projects (profile_id, title, description, links)
 VALUES (
   1,
